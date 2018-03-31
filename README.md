@@ -1,6 +1,7 @@
 ResearchMatch
 -------------
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac7d134650fc4b1daab1/maintainability)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/ac7d134650fc4b1daab1/test_coverage)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive/test_coverage)
 
 ResearchMatch is an open source Web application written in Rails 3 designed
 to facilitate the matching of students (in particular, but not necessarily,
