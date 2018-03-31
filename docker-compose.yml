@@ -1,0 +1,21 @@
+version: '3'
+services:
+  db:
+    image: postgres
+    volumes:
+      - ./tmp/db:/var/lib/postgresql/data
+  web:
+    build: .
+    command: bundle exec rails s -p 3000 -b '0.0.0.0'
+    environment:
+      # For deployment, one needs to create a '/config/initializers/_environment_variables.rb' file for secrets and comment this section.
+      # Afterwards, one needs to add the newly created file to '.gitignore' for security reasons.
+      - SECRET_KEY_BASE=551b07c11da85cca01d41fcb1a46a7d7194b55093b7c7b1d0b75834ba4e80ed13fa25f219bb5581d773c4dc6c5753c15d9fd87d38c2d6475db7431b84a84e64c
+      - RAILS_ENV=test
+      - SECRET_TOKEN=82d58d3dfb91238b495a311eb8539edf5064784f1d58994679db8363ec241c745bef0b446bfe44d66cbf91a2f4e497d8f6b1ef1656e3f405b0d263a9617ac75e
+    volumes:
+      - .:/myapp
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db

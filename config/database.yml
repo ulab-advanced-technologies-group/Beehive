@@ -1,23 +1,16 @@
-# development:
-#     adapter: postgresql
-#     database: dc8gh7b3pjl8l3
-#     host: localhost
-#     username: jessica
-#     pool: 5
-#     timeout: 5000
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: db
+  username: postgres
+  password:
+  pool: 5
 
 development:
-    adapter: postgresql
-    database: dc8gh7b3pjl8l3
-    host: localhost
-    username: postgres
-    pool: 5
-    timeout: 5000
+  <<: *default
+  database: myapp_development
 
-test: 
-    adapter: postgresql
-    database: dc8gh7b3pjl8l3
-    host: localhost
-    username: postgres
-    pool: 5
-    timeout: 5000
+
+test:
+  <<: *default
+  database: myapp_test
