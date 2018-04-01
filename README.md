@@ -1,12 +1,12 @@
-ResearchMatch
+Beehive
 -------------
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac7d134650fc4b1daab1/maintainability)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ac7d134650fc4b1daab1/test_coverage)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive/test_coverage)
 
-ResearchMatch is an open source Web application written in Rails 3 designed
+Beehive is an open-source Web application written in Rails 4 designed
 to facilitate the matching of students (in particular, but not necessarily,
 undergraduate students) to research positions offered by faculty at
-university. ResearchMatch uses tags and user-specified parameters to
+the university. Beehive uses tags and user-specified parameters to
 suggest research positions for students, manages the application to jobs
 by students and allows for the submission of a resume and/or transcript
 in the research application.
