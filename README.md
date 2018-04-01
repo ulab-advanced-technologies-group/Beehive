@@ -2,6 +2,8 @@ Beehive
 -------------
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac7d134650fc4b1daab1/maintainability)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ac7d134650fc4b1daab1/test_coverage)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive/test_coverage)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 
 Beehive is an open-source Web application written in Rails 4 designed
 to facilitate the matching of students (in particular, but not necessarily,
