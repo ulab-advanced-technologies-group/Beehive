@@ -2,6 +2,7 @@ Beehive
 -------------
 [![Maintainability](https://api.codeclimate.com/v1/badges/ac7d134650fc4b1daab1/maintainability)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/ac7d134650fc4b1daab1/test_coverage)](https://codeclimate.com/github/ulab-advanced-technologies-group/Beehive/test_coverage)
+[![Dependency Status](https://gemnasium.com/badges/github.com/ulab-advanced-technologies-group/Beehive.svg)](https://gemnasium.com/github.com/ulab-advanced-technologies-group/Beehive)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 
